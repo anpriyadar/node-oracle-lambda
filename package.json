@@ -1,0 +1,24 @@
+{
+  "name": "oracleforlambdav2",
+  "version": "1.0.0",
+  "description": "oracledb, precompiled for AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "unzip -u lambda-lib.zip -d ../../lib && mv ../../lib/libociei.so lib/libociei.so && rm lambda-lib.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anpriyadar/node-oracle-lambda.git"
+  },
+  "keywords": [
+    "OracleDb",
+    "Lambda",
+    "Database"
+  ],
+  "author": "Animesh Priyadarshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anpriyadar/node-oracle-lambda/issues"
+  },
+  "homepage": "https://github.com/anpriyadar/node-oracle-lambda#readme"
+}
